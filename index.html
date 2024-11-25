@@ -20,102 +20,111 @@
 </head>
 
 <body>
-  <header class="main-header">
-    <div class="container">
-      <h1 class="heading-primary">Hi there, I'm Siddarth Dayasagar <span class="wave">👋</span></h1>
-      <p class="sub-heading">🚀 Robotics Engineer | 🤖 ROS Enthusiast | ⚙️ Enthusiastic Learner and Team Player</p>
-    </div>
-  </header>
+  <!-- Header Section -->
+  <h1 align="center">Hi there, I'm Siddarth Dayasagar 👋</h1>
+  <h3 align="center">🚀 Robotics Engineer | 🤖 ROS Enthusiast | ⚙️ Enthusiastic Learner and Team Player</h3>
 
-  <nav class="navbar">
-    <div class="container">
-      <ul class="nav-links">
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+  <!-- About Me Section -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a dedicated robotics engineer focusing on developing intelligent systems for autonomous robots. With expertise in ROS1 and ROS2, computer vision, and motion planning, I bring a well-rounded approach to robotic system design and implementation. Currently, I am pursuing my Master’s in Robotics at Northeastern University.
+    </p>
+    <p>
+      In previous roles as a Robotics Intern at Flomobility and Strider Robotics, I gained extensive experience in building production-level robotic systems, contributing to real-world, scalable solutions. These opportunities enhanced my understanding of end-to-end robotics development, from concept through deployment.
+    </p>
+    <p>
+      If you seek a skilled and collaborative robotics engineer to contribute to innovative projects, feel free to connect with me!
+    </p>
+  </section>
 
-  <section id="about" class="about section">
-    <div class="container">
-      <h2 class="section-title">About Me</h2>
+  <!-- Badges Section -->
+  <section class="badges">
+    <p align="center">
+      <img src="https://img.shields.io/badge/ROS2-humble-blue?style=flat&logo=ros&logoColor=white" />
+      <img src="https://img.shields.io/badge/ROS-Noetic-blue?style=flat&logo=ros&logoColor=white" />
+      <img src="https://img.shields.io/badge/Python-3.x-yellow?style=flat&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/C++-14/17-00599C?style=flat&logo=c%2B%2B" />
+      <img src="https://img.shields.io/badge/Linux-Ubuntu-orange?style=flat&logo=linux" />
+      <img src="https://img.shields.io/badge/GitHub-Actions-blue?style=flat&logo=github-actions&logoColor=white" />
+    </p>
+  </section>
+
+  <!-- Featured Projects Section -->
+  <section class="projects">
+    <h2>Featured Projects</h2>
+    <div class="project">
+      <h3>🤖 <a href="https://github.com/siddarth09/Ditto">DITTO: A OUTDOOR DELIVERY ROBOT</a></h3>
       <p>
-        I am a dedicated robotics engineer focusing on developing intelligent systems for autonomous robots. With expertise in ROS1 and ROS2, computer vision, and motion planning, I bring a well-rounded approach to robotic system design and implementation. Currently, I am pursuing my Master’s in Robotics at Northeastern University.
+        Ditto is a level 2 autonomous delivery robot that uses a QR code-based authentication fail-proof locking system and an onboard OAK-D lite camera for perception. This robot can be used in gated communities and huge colleges or universities.
+        <br />
+        Tech: ROS1 Noetic, OAK-D lite depth camera, Rack and pinion-based package securing system.
+        <br />
+        <a href="https://youtu.be/vQAGHTjxhpw">Video Repo: Ditto working in real-time</a>
       </p>
+    </div>
+    <div class="project">
+      <h3>🚗 <a href="https://github.com/siddarth09/Rusty">RUSTY</a></h3>
       <p>
-        In previous roles as a Robotics Intern at Flomobility and Strider Robotics, I gained extensive experience in building production-level robotic systems, contributing to real-world, scalable solutions. These opportunities enhanced my understanding of end-to-end robotics development, from concept through deployment.
+        Rusty, a "picking assist AMR", travels to pick locations, where operators deliver goods based on the robot’s needs. This robot uses the ROS navigation stack, employing Lidar for mapping and localization.
+        <br />
+        Tech: ROS1, ROSnav_stack, C++, Python
+        <br />
+        <a href="https://siddarth09.github.io/Rusty/">GitHub Repo</a>
       </p>
+    </div>
+    <div class="project">
+      <h3>🚅 S-MART</h3>
       <p>
-        If you seek a skilled and collaborative robotics engineer to contribute to innovative projects, feel free to connect with me!
+        Amazon Fresh dash cart emulator with custom trained AI-model (YOLOv4) recognizing 12 different retail products, enabling hassle-free self-checkout.
+        <br />
+        Tech: Python, Computer Vision, Raspberry Pi 4B+
+        <br />
+        <a href="https://youtu.be/exugYHKRfuw">S-MART: Tech Cart Demo Video</a>
       </p>
     </div>
   </section>
 
-  <section id="projects" class="projects section">
-    <div class="container">
-      <h2 class="section-title">Featured Projects</h2>
-      <div class="project-card">
-        <h3 class="project-title"><a href="https://github.com/siddarth09/Ditto">DITTO: A OUTDOOR DELIVERY ROBOT</a></h3>
-        <p class="project-description">
-          Ditto is a level 2 autonomous delivery robot that uses a QR code-based authentication fail-proof locking system and an onboard OAK-D lite camera for perception. This robot can be used in gated communities and huge colleges or universities.
-        </p>
-        <p class="project-tech">Tech: ROS1 Noetic, OAK-D lite depth camera, Rack and pinion-based package securing system.</p>
-        <a href="https://youtu.be/vQAGHTjxhpw" class="project-link">Watch Video Demo</a>
-      </div>
-      <div class="project-card">
-        <h3 class="project-title"><a href="https://github.com/siddarth09/Rusty">RUSTY</a></h3>
-        <p class="project-description">
-          Rusty, a "picking assist AMR", travels to pick locations, where operators deliver goods based on the robot’s needs. This robot uses the ROS navigation stack, employing Lidar for mapping and localization.
-        </p>
-        <p class="project-tech">Tech: ROS1, ROSnav_stack, C++, Python</p>
-        <a href="https://siddarth09.github.io/Rusty/" class="project-link">Visit GitHub Repo</a>
-      </div>
-      <div class="project-card">
-        <h3 class="project-title">S-MART</h3>
-        <p class="project-description">
-          Amazon Fresh dash cart emulator with custom trained AI-model (YOLOv4) recognizing 12 different retail products, enabling hassle-free self-checkout.
-        </p>
-        <p class="project-tech">Tech: Python, Computer Vision, Raspberry Pi 4B+</p>
-        <a href="https://youtu.be/exugYHKRfuw" class="project-link">Watch Demo Video</a>
-      </div>
+  <!-- Tools and Technologies Section -->
+  <section class="skills">
+    <h2>Tools & Technologies</h2>
+    <ul>
+      <li><strong>Programming Languages</strong>: Python, C++, C</li>
+      <li><strong>Robotics Frameworks</strong>: ROS 1/ROS 2, MoveIt, Gazebo Classic and Gazebo Harmonic (basics)</li>
+      <li><strong>Embedded Systems</strong>: Arduino, Raspberry Pi</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>
+      Looking forward to collaborating on exciting projects! Reach out to me by clicking on the links below:
+    </p>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/siddarth-d-roboticsengineer/">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      </a>
+      <a href="mailto:siddarth.dayasagar@gmail.com">
+        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+      </a>
     </div>
   </section>
 
-  <section id="skills" class="skills section">
-    <div class="container">
-      <h2 class="section-title">Tools & Technologies</h2>
-      <ul class="skills-list">
-        <li><strong>Programming Languages</strong>: Python, C++, C</li>
-        <li><strong>Robotics Frameworks</strong>: ROS 1/ROS 2, MoveIt, Gazebo Classic and Gazebo Harmonic (basics)</li>
-        <li><strong>Embedded Systems</strong>: Arduino, Raspberry Pi</li>
-      </ul>
+  <!-- GitHub Stats Section -->
+  <section class="github-stats">
+    <h2>GitHub Stats</h2>
+    <p align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=siddarth09&show_icons=true&theme=radical" alt="GitHub Stats" width="500px" />
+      <br />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=siddarth09&theme=radical" width="500px" alt="GitHub Streak Stats" />
+    </p>
+    <div align="center">
+      <a href="https://github-readme-activity-graph.vercel.app/graph?username=siddarth09&theme=github-dark-dimmed">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=siddarth09&theme=github-dark-dimmed" alt="Activity Graph" />
+      </a>
     </div>
   </section>
-
-  <section id="contact" class="contact section">
-    <div class="container">
-      <h2 class="section-title">Contact Me</h2>
-      <p>
-        Looking forward to collaborating on exciting projects! Reach out to me by clicking on the links below:
-      </p>
-      <div class="contact-links">
-        <a href="https://www.linkedin.com/in/siddarth-d-roboticsengineer/">
-          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-        </a>
-        <a href="mailto:siddarth.dayasagar@gmail.com">
-          <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="container">
-      <p>© 2024 Siddarth Dayasagar | Robotics Engineer</p>
-    </div>
-  </footer>
 
   <!-- custom js link -->
   <script src="./assets/js/script.js"></script>
