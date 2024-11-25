@@ -1776,13 +1776,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   body::-webkit-scrollbar-button { height: 60px; }
 
-  body {
-    background: url('assets/images/mars-closeup.webp') no-repeat center center fixed, url('assets/images/stars.jpg') repeat;
-    background-size: cover;
-    color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.6;
-  }
 
   /**
    * REUSED STYLE
