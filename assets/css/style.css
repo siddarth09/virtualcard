@@ -1871,6 +1871,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .social-list { justify-content: center; }
 
+  .mars-image {
+    width: 300px;
+    height: 200px;
+    background-image: url('assets/images/mars-closeup.webp');
+    background-size: cover;
+    background-position: center;
+  }
+  
 
 
   /**
