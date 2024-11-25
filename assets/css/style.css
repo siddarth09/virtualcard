@@ -1,5 +1,5 @@
 body {
-  background: url('./assets/images/mars-closeup.png') no-repeat center center fixed, url('./assets/images/stars.jpg') repeat;
+  background: url('./assets/images/mars-closeup.webp') no-repeat center center fixed, url('./assets/images/mars-closeup.png') repeat;
   background-size: cover;
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
@@ -7,7 +7,7 @@ body {
 }
 
 h1, h2, h3 {
-  color: #00e7ff;
+  color: #ffd900;
   animation: floating 5s ease-in-out infinite;
 }
 
