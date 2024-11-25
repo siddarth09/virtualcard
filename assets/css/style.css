@@ -1,14 +1,14 @@
-
-
 body {
-  background-color: #0b1d3e; /* Dark space-themed background */
-  color: #ffffff; /* Text color for better contrast */
+  background: url('./assets/images/mars-closeup.png') no-repeat center center fixed, url('./assets/images/stars.jpg') repeat;
+  background-size: cover;
+  color: #ffffff;
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
 }
 
 h1, h2, h3 {
-  color: #00e7ff; /* Bright teal color for headings to evoke a futuristic space look */
+  color: #00e7ff;
+  animation: floating 5s ease-in-out infinite;
 }
 
 h1 {
@@ -27,19 +27,19 @@ section {
   margin: 3rem auto;
   padding: 1.5rem;
   max-width: 800px;
-  background: rgba(255, 255, 255, 0.1); /* Slightly transparent background to simulate HUD panel */
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
 .project a {
-  color: #ffae42; /* Highlight links in an orange-gold color reminiscent of solar light */
+  color: #ffae42;
   text-decoration: none;
   font-weight: bold;
 }
 
 .project a:hover {
-  color: #ffffff; /* Change link color on hover */
+  color: #ffffff;
 }
 
 .badges img {
@@ -74,7 +74,6 @@ section {
   border-radius: 15px;
 }
 
-/* Animations for Space Robotics Theme */
 @keyframes floating {
   0% {
     transform: translateY(0);
@@ -87,11 +86,6 @@ section {
   }
 }
 
-h1, h2, h3 {
-  animation: floating 5s ease-in-out infinite;
-}
-
-/* Custom Scrollbar for a more futuristic feel */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -103,4 +97,13 @@ h1, h2, h3 {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #ffae42;
+}
+
+.navbar-list button {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-list button:hover {
+  color: #ffae42;
+  background-color: rgba(0, 0, 0, 0.2);
 }

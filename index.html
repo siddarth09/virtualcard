@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Siddarth Robotics Portfolio</title>
+  <title>Siddarth-Roboticsengineer</title>
 
   <!-- favicon -->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
@@ -19,118 +19,225 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
-<body>
-  <!-- Header Section -->
-  <h1 align="center">Hi there, I'm Siddarth Dayasagar 👋</h1>
-  <h3 align="center">🚀 Robotics Engineer | 🤖 ROS Enthusiast | ⚙️ Enthusiastic Learner and Team Player</h3>
 
-  <!-- About Me Section -->
-  <section class="about">
-    <h2>About Me</h2>
-    <p>
-      I am a dedicated robotics engineer focusing on developing intelligent systems for autonomous robots. With expertise in ROS1 and ROS2, computer vision, and motion planning, I bring a well-rounded approach to robotic system design and implementation. Currently, I am pursuing my Master’s in Robotics at Northeastern University.
-    </p>
-    <p>
-      In previous roles as a Robotics Intern at Flomobility and Strider Robotics, I gained extensive experience in building production-level robotic systems, contributing to real-world, scalable solutions. These opportunities enhanced my understanding of end-to-end robotics development, from concept through deployment.
-    </p>
-    <p>
-      If you seek a skilled and collaborative robotics engineer to contribute to innovative projects, feel free to connect with me!
-    </p>
-  </section>
+  <!-- MAIN -->
+  <main>
 
-  <!-- Badges Section -->
-  <section class="badges">
-    <p align="center">
-      <img src="https://img.shields.io/badge/ROS2-humble-blue?style=flat&logo=ros&logoColor=white" />
-      <img src="https://img.shields.io/badge/ROS-Noetic-blue?style=flat&logo=ros&logoColor=white" />
-      <img src="https://img.shields.io/badge/Python-3.x-yellow?style=flat&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/C++-14/17-00599C?style=flat&logo=c%2B%2B" />
-      <img src="https://img.shields.io/badge/Linux-Ubuntu-orange?style=flat&logo=linux" />
-      <img src="https://img.shields.io/badge/GitHub-Actions-blue?style=flat&logo=github-actions&logoColor=white" />
-    </p>
-  </section>
+    <!-- SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Siddarth Dayasagar" width="80">
+        </figure>
 
-  <!-- Featured Projects Section -->
-  <section class="projects">
-    <h2>Featured Projects</h2>
-    <div class="project">
-      <h3>🤖 <a href="https://github.com/siddarth09/Ditto">DITTO: A OUTDOOR DELIVERY ROBOT</a></h3>
-      <p>
-        Ditto is a level 2 autonomous delivery robot that uses a QR code-based authentication fail-proof locking system and an onboard OAK-D lite camera for perception. This robot can be used in gated communities and huge colleges or universities.
-        <br />
-        Tech: ROS1 Noetic, OAK-D lite depth camera, Rack and pinion-based package securing system.
-        <br />
-        <a href="https://youtu.be/vQAGHTjxhpw">Video Repo: Ditto working in real-time</a>
-      </p>
+        <div class="info-content">
+          <h1 class="name" title="Siddarth Dayasagar">Siddarth Dayasagar</h1>
+          <p class="title">Robotics Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:siddarth.dayasagar@gmail.com" class="contact-link">siddarth.dayasagar@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+16176500540" class="contact-link">+1 (617) 560-0540</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2000-09-09">2000-09-09</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Boston, Massachusetts, USA</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" onclick="location.href='#resume-section'" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" onclick="location.href='portfolio.html'">Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ABOUT -->
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            Hey there! I’m Siddarth, a dedicated robotics engineer pursuing my Master’s in Robotics at Northeastern
+            University. I focus on developing intelligent systems for autonomous robots, blending expertise in ROS1, ROS2,
+            computer vision, and motion planning to build well-rounded robotic solutions. I love transforming complex
+            challenges into efficient, creative designs for real-world use.
+          </p>
+          <p>
+            I've worked with Flomobility and Strider Robotics, where I got hands-on experience with production-level
+            robotic systems, contributing to end-to-end development from concept through deployment. This has sharpened my
+            understanding of scalable, innovative solutions. My aim? To create robotics that’s not only functional and
+            user-friendly but smart and ready to take on real challenges. Let's build something amazing together!
+          </p>
+        </section>
+      </article>
+
+      <!-- RESUME -->
+      <article id="resume-section" class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Northeastern University, Boston, USA</h4>
+              <span>Candidate for Master’s of Science in Robotics</span>
+              <span>2024-2026</span>
+              <p class="timeline-text">
+                Current coursework includes Mobile Robotics, Robotics Motion, and Control.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Jain University, Bangalore, India</h4>
+              <span>Bachelor of Technology in Robotics and Automation, CGPA 8.6/10</span>
+              <span>2019-2023</span>
+              <p class="timeline-text">
+                Coursework involved Maths for Engineers, Principles of Robotics, Control Systems, Machine Learning, etc.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Perception Intern</h4>
+              <span>Strider Robotics @ ARTPARK, Bangalore, India</span>
+              <span>Jan 2024 – Jul 2024</span>
+              <p class="timeline-text">
+                Worked on the perception stack, experimenting with VO and VIO options for robot odometry. Contributed to
+                the stack by porting the Elevation Mapping package by Anymal Robotics to ROS2, solving vision issues for
+                quadrupeds, and assisted in data collection with sensors like Ouster LiDAR and RealSense Depth Camera.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Robotics Intern</h4>
+              <span>Flomobility, Bangalore, India</span>
+              <span>Sept 2022 – Apr 2023</span>
+              <p class="timeline-text">
+                Designed localization for lawn mower robots using AprilTag boards, achieving precise localization. Optimized
+                robotic performance by integrating Bang-Bang and PID controllers, supporting real-world testing, and
+                collaborating with cross-functional teams.
+              </p>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <!-- CONTACT -->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+
     </div>
-    <div class="project">
-      <h3>🚗 <a href="https://github.com/siddarth09/Rusty">RUSTY</a></h3>
-      <p>
-        Rusty, a "picking assist AMR", travels to pick locations, where operators deliver goods based on the robot’s needs. This robot uses the ROS navigation stack, employing Lidar for mapping and localization.
-        <br />
-        Tech: ROS1, ROSnav_stack, C++, Python
-        <br />
-        <a href="https://siddarth09.github.io/Rusty/">GitHub Repo</a>
-      </p>
-    </div>
-    <div class="project">
-      <h3>🚅 S-MART</h3>
-      <p>
-        Amazon Fresh dash cart emulator with custom trained AI-model (YOLOv4) recognizing 12 different retail products, enabling hassle-free self-checkout.
-        <br />
-        Tech: Python, Computer Vision, Raspberry Pi 4B+
-        <br />
-        <a href="https://youtu.be/exugYHKRfuw">S-MART: Tech Cart Demo Video</a>
-      </p>
-    </div>
-  </section>
-
-  <!-- Tools and Technologies Section -->
-  <section class="skills">
-    <h2>Tools & Technologies</h2>
-    <ul>
-      <li><strong>Programming Languages</strong>: Python, C++, C</li>
-      <li><strong>Robotics Frameworks</strong>: ROS 1/ROS 2, MoveIt, Gazebo Classic and Gazebo Harmonic (basics)</li>
-      <li><strong>Embedded Systems</strong>: Arduino, Raspberry Pi</li>
-    </ul>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="contact">
-    <h2>Contact Me</h2>
-    <p>
-      Looking forward to collaborating on exciting projects! Reach out to me by clicking on the links below:
-    </p>
-    <div class="contact-links">
-      <a href="https://www.linkedin.com/in/siddarth-d-roboticsengineer/">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-      </a>
-      <a href="mailto:siddarth.dayasagar@gmail.com">
-        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-      </a>
-    </div>
-  </section>
-
-  <!-- GitHub Stats Section -->
-  <section class="github-stats">
-    <h2>GitHub Stats</h2>
-    <p align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=siddarth09&show_icons=true&theme=radical" alt="GitHub Stats" width="500px" />
-      <br />
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=siddarth09&theme=radical" width="500px" alt="GitHub Streak Stats" />
-    </p>
-    <div align="center">
-      <a href="https://github-readme-activity-graph.vercel.app/graph?username=siddarth09&theme=github-dark-dimmed">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=siddarth09&theme=github-dark-dimmed" alt="Activity Graph" />
-      </a>
-    </div>
-  </section>
+  </main>
 
   <!-- custom js link -->
   <script src="./assets/js/script.js"></script>
+
   <!-- ionicon link -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>
